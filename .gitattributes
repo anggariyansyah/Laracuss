@@ -9,3 +9,14 @@
 /.github export-ignore
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore
+# Mengonversi semua file teks ke LF pada saat commit
+* text=auto
+
+# Khusus untuk file SCSS dan CSS
+*.scss text eol=lf
+*.css text eol=lf
+
+# Khusus untuk file lain yang mungkin ingin Anda konversi
+*.html text eol=lf
+*.js text eol=lf
+*.php text eol=lf
